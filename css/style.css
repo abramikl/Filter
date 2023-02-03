@@ -1,0 +1,36 @@
+.filter {
+    display: flex;
+    color: #191D23;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.filter__title {
+    font-size: 22px;
+    font-weight: 700;
+    display: inline;
+}
+
+.prise {
+    cursor: pointer;
+    margin-top: 16px;
+    font-size: 18px;
+}
+.prise__title {
+    display: flex;
+}
+.prise__input {
+    display: none;
+}
+.svg__actived.active{
+    transform: rotate(-180deg);
+}
+.prise__input.active {
+display: block;
+}
+label {
+    cursor: pointer;
+    display: block;
+    margin-top: 12px;
+}
